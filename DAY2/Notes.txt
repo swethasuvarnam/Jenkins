@@ -294,17 +294,15 @@ step 2: connect to that server
 step 3: sudo su -
 
 step 4: install java
-   sudo yum install java-11-openjdk-devel -y
-   javac --version
-
-step 5: yum install wget unzip -y
-
+   follow sq steps to download java 17
 step 6: cd /opt/
    
 
-     wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.100/bin/apache-tomcat-9.0.100.zip
+     wget https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.100/bin/apache-tomcat-9.0.100.zip
+
      
-step 7: unzip apache-tomcat-9.0.91.zip
+step 7: unzip apache-tomcat-9.0.100.zip
+
 
  
 
@@ -312,7 +310,8 @@ step 7: unzip apache-tomcat-9.0.91.zip
 
 step 8: goto the bin directory.
      
-       cd /opt/apache-tomcat-9.0.91/bin
+       cd apache-tomcat-9.0.100/bin
+
 
 step 9: chmod u+x *.sh
 
