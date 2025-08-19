@@ -9,10 +9,19 @@ step 3: switch to root user [ sudo su - ]
 
 step 4: install java
 
-   sudo yum install java-11-openjdk-devel -y
-  
-   javac --version
+  cd /opt
+wget https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10+7/OpenJDK17U-jdk_x64_linux_hotspot_17.0.10_7.tar.gz
 
+tar -xvzf OpenJDK17U-jdk_x64_linux_hotspot_17.0.10_7.tar.gz
+mv jdk-17.0.10+7 java-17
+export JAVA_HOME=/opt/java-17
+export PATH=$JAVA_HOME/bin:$PATH
+
+java -version
+You should see something like:
+openjdk version "17.0.10" 2023-07-18
+  
+   
 step 5: go to /opt dir
 
   cd /opt
@@ -119,8 +128,8 @@ step 5: check whether java is installed or not.
 
 step 6: Install java
  
-#Install JDK 1.8 
-sudo yum install java-1.8.0-openjdk-devel -y
+follow the sonarqube above steps
+
 
 javac -version
 
