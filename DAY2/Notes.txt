@@ -144,7 +144,7 @@ step 8:
 
 
 
- wget https://download.sonatype.com/nexus/3/nexus-3.70.1-02-java17-unix.tar.gz
+wget https://download.sonatype.com/nexus/3/nexus-3.83.0-08-linux-x86_64.tar.gz
 
 
 
