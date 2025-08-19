@@ -152,13 +152,16 @@ wget https://download.sonatype.com/nexus/3/nexus-3.83.0-08-linux-x86_64.tar.gz
 
 step 9: 
 
-tar -zxvf nexus-3.70.1-02-java17-unix.tar.gz
+tar -xvzf nexus-3.83.0-08-linux-x86_64.tar.gz
+
 
 
 
 step 10:
 
-mv nexus-3.70.1-02 /opt/nexus
+export JAVA_HOME=/path/to/your/java17
+export PATH=$JAVA_HOME/bin:$PATH
+
 
 
 
