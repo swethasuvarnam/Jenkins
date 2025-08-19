@@ -28,7 +28,8 @@ step 5: go to /opt dir
 
 step 6: yum install wget unzip tree -y
 
-step 7: wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.6.1.59531.zip
+step 7: wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.6.1.59531.zip   
+
 
 step 7.1 : unzip sonarqube-9.6.1.59531
 
