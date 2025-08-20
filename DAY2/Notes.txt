@@ -217,7 +217,7 @@ sudo systemctl enable nexus
 sudo vi /etc/systemd/system/nexus.service
 
 [Unit]
-Description=nexus service
+Description=Nexus Repository Manager
 After=network.target
 
 [Service]
@@ -232,6 +232,7 @@ Restart=on-abort
 WantedBy=multi-user.target
 
 
+sudo chmod +x /opt/nexus-3.83.0-08/bin/nexus
 
 sudo systemctl daemon-reexec
 sudo systemctl daemon-reload
